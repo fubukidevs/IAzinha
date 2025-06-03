@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # OpenAI API configuration
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Telegram bot token - substitua pelo seu token do BotFather
@@ -579,7 +579,7 @@ REGRAS RÍGIDAS:
 
 QUANDO PIX - CORRIGIDO:
 - SOMENTE depois que cliente VIU a tabela E escolheu um pacote específico
-- quando ele disser "quero o de 10", "vou pegar o pacote 1", "quero o mais barato", "quero o de 24", "vou pegar o grupo vip", etc
+- quando ele disser "quero o de 19", "vou pegar o pacote 1", "quero o mais barato", "quero o de 29", "vou pegar o grupo vip", etc
 - NUNCA envie PIX se ele só disse "quero" sem ver a tabela
 - SEQUÊNCIA OBRIGATÓRIA: áudio explicativo → tabela → pix (NUNCA pule a tabela)
 - se ele disser "sim" após explicação, SEMPRE envie tabela primeiro com ***ENVIAR_TABELA***
